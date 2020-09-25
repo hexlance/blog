@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<title>Chenster | Quotes</title>
+<title>Chenster | Firebase</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -48,7 +48,7 @@
       </a>
 
       <div id="blog-dropdown" class="w3-bar-block w3-hide w3-padding-large w3-medium">
-        <a href="firebase-tutorials.html" class="w3-bar-item w3-button">Firebase Tutorials</a>
+        <a href="#" class="w3-bar-item w3-button">Firebase Tutorials</a>
       </div>
 
       <a onclick="dropAboutMe()" href="javascript:void(0)" class="w3-button w3-block w3-white w3-left-align" id="myBtn">
@@ -57,7 +57,7 @@
 
       <div id="about-me-dropdown" class="w3-bar-block w3-hide w3-padding-large w3-medium">
         <a href="index.html" class="w3-bar-item w3-button">Welcome</a>
-        <a href="#" class="w3-bar-item w3-button">Quotes</a>
+        <a href="quotes.html" class="w3-bar-item w3-button">Quotes</a>
       </div>
     <!--
     <a href="#" class="w3-bar-item w3-button">Jackets</a>
@@ -86,26 +86,29 @@
 
   <!-- Top header -->
   <header class="w3-container w3-xlarge">
-    <p class="w3-left">Quote Page</p>
+    <p class="w3-left">Google Firebase Tutorials</p>
   </header>
 
   <!-- Main content -->
-  <div class="w3-container">
-    <p style="font-style: italic; text-align: center;font-size: 13px;">
-      "The general who is skilled in defense hides in the most secret recesses of the earth; he who is skilled in attack flashes forth from the topmost heights of heaven. Thus on the one hand we have ability to protect ourselves; on the other, a victory that is complete."
-      <br>
-      ~ Sun Tzu
-    </p><br>
-    <p style="font-style: italic; text-align: center;font-size: 13px;">
-      “Give me six hours to chop down a tree and I will spend the first four sharpening the ax.”
-      <br>
-      ~ Abraham Lincoln
-    </p><br>
-    <p style="font-style: italic; text-align: center;font-size: 13px;">
-      “We can easily forgive a child who is afraid of the dark; the real tragedy of life is when men are afraid of the light.”
-      <br>
-      ~ Plato
-    </p>
+  <div class="w3-container" style="background-color: white; margin-left: 17px;">
+
+    <h5>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+    </h5>
     
   </div>
 
@@ -127,40 +130,40 @@
 -->
 
 <script>
-  // Accordion
-  function dropAboutMe() {
-    var x = document.getElementById("about-me-dropdown");
-    if (x.className.indexOf("w3-show") == -1) {
-      x.className += " w3-show";
-    } else {
-      x.className = x.className.replace(" w3-show", "");
-    }
+// Accordion
+function dropAboutMe() {
+  var x = document.getElementById("about-me-dropdown");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else {
+    x.className = x.className.replace(" w3-show", "");
   }
-  
-  function dropBlog() {
-    var x = document.getElementById("blog-dropdown");
-    if (x.className.indexOf("w3-show") == -1) {
-      x.className += " w3-show";
-    } else {
-      x.className = x.className.replace(" w3-show", "");
-    }
+}
+
+function dropBlog() {
+  var x = document.getElementById("blog-dropdown");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else {
+    x.className = x.className.replace(" w3-show", "");
   }
-  
-  // Click on the "Jeans" link on page load to open the accordion for demo purposes
-  document.getElementById("myBtn").click();
-  
-  
-  // Open and close sidebar
-  function w3_open() {
-    document.getElementById("mySidebar").style.display = "block";
-    document.getElementById("myOverlay").style.display = "block";
-  }
-  
-  function w3_close() {
-    document.getElementById("mySidebar").style.display = "none";
-    document.getElementById("myOverlay").style.display = "none";
-  }
-  </script>
+}
+
+// Click on the "Jeans" link on page load to open the accordion for demo purposes
+document.getElementById("myBtn").click();
+
+
+// Open and close sidebar
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+  document.getElementById("myOverlay").style.display = "block";
+}
+
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+  document.getElementById("myOverlay").style.display = "none";
+}
+</script>
 
 </body>
 </html>
