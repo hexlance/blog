@@ -1,2 +1,2 @@
-# Website
-Welcome! This is my personal website: https://hexlance.digital/
+# Blog
+Welcome! This is my personal blog and website: https://hexlance.digital/
