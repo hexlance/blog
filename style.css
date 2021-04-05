@@ -70,7 +70,7 @@ aside > div{min-height:20px;padding:10px}
 .sidebarToggle #menuToggle{background:#344;color:#FFF}
 }
 @media screen and (max-width:600px){#headerLeft{float:right}
-#headerRight{height:auto;position:absolute;width:auto;top:46px;background:#6f9898;left:0;display:none}
+#headerRight{height:auto;position:absolute;width:auto;top:46px;background:#5f99db;left:0;display:none}
 .showMobileMenu #headerRight{display:block}
 nav ul li a{display:block;background:transparent;color:#FFF;text-align:center;font-size:16px;padding:3px 29px;line-height:25px}
 .showMobileMenu #mobileMenuToggle{background:#344;color:#FFF}
@@ -79,7 +79,7 @@ nav ul li{display:block;margin:0}
 header{padding:3px 10px}
 #page{padding: 20px 10px}
 #wrapall{padding-top:46px}
-#sidebarContent{right:0;background:#6f9898}
+#sidebarContent{right:0;background:#5f99db}
 #mobileLogo{display:inline-block;font-size:17px;padding:0 3px 0 10px;font-weight:bold;color:#FFF;text-decoration:none}
 #mobileMenuToggle{display:inline-block}
 }
